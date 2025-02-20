@@ -1,0 +1,17 @@
+
+3. JSON Encoding & Decoding
+JSON is used to convert data between PHP and JavaScript.
+
+3.1 JSON Encoding (json_encode)
+Converts PHP arrays or objects to JSON format.
+
+Explanation:
+json_encode() converts an associative array into a JSON string.
+JSON_PRETTY_PRINT makes it readable.
+
+3.2 JSON Decoding (json_decode)
+Converts JSON format back to a PHP array or object.
+
+Explanation:
+json_decode($jsonString, true) converts JSON to an associative array.
+

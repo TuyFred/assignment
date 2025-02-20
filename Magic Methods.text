@@ -1,0 +1,14 @@
+3. Magic Methods (__callStatic(), __call())
+Magic methods allow dynamic method handling when methods are not explicitly defined.
+
+
+3.1 __callStatic() – Handling Static Method Calls
+
+Explanation:
+__callStatic() is triggered when calling undefined static methods.
+
+
+3.2 __call() – Handling Non-Static Method Calls
+
+Explanation:
+__call() handles calls to undefined methods

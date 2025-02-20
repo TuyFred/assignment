@@ -1,0 +1,29 @@
+3. Operators in PHP
+Operators are symbols that perform operations on variables and values.
+here we have few common ones.
+
+3.1 Arithmetic Operators
+Used for performing mathematical operations like addition, subtraction, multiplication, etc.
+
+Explanation:
+These operators perform basic arithmetic calculations.
+
+3.2 Comparison Operators
+Used for comparing two values.
+
+Explanation:
+These operators compare the two values and return true or false.
+
+3.3 Logical Operators
+Used for combining multiple conditions.
+
+Explanation:
+&& and || combine conditions.
+! negates a condition.
+
+3.4 Assignment Operators
+Used to assign values to variables.
+
+Explanation:
++= and -= modify the value of the variable based on the assigned operation
+

@@ -1,0 +1,16 @@
+5. Method Overriding & Overloading
+Overriding and overloading provide flexibility in OOP.
+
+5.1 Method Overriding
+A subclass can override a parent method.
+
+Explanation:
+ChildClass overrides showMessage().
+
+5.2 Method Overloading (Using __call())
+PHP does not support traditional method overloading, but __call() can simulate it.
+
+Explanation:
+sum() accepts any number of arguments using __call().
+
+

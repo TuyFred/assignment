@@ -1,0 +1,9 @@
+1. Constants in Classes (const)
+
+Constants are variables that cannot be changed once defined.
+const in classes allows you to define constant values within a class
+that can be accessed without creating an instance of the class.
+
+Explanation:
+const PI = 3.14159; defines a constant within the class.
+self::PI is used to access the constant in the method calculateArea().

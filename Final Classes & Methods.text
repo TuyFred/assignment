@@ -1,0 +1,10 @@
+2. Final Classes & Methods (final)
+
+final keyword prevents a class from being inherited or a method from being overridden.
+When a class is marked as final, it cannot be extended.
+A final method cannot be overridden in derived classes.
+
+Explanation:
+The Vehicle class is declared as final, so it cannot be inherited.
+If you try to extend a final class (like the commented-out Car class), it will throw an error.
+

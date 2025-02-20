@@ -1,0 +1,21 @@
+1. Abstract Classes & Interfaces
+Abstract classes and interfaces help define a common structure for different classes.
+
+1.1 Abstract Classes
+An abstract class cannot be instantiated.
+It may contain abstract methods (without implementation).
+Child classes must implement all abstract methods.
+
+
+Explanation:
+Animal is abstract, so it cannot be instantiated.
+Dog must implement makeSound().
+
+1.2 Interfaces
+Interfaces only contain method signatures (no implementation).
+A class can implement multiple interfaces.
+
+Explanation:
+Cat implements both Animal and Pet.
+Multiple interfaces allow flexibility
+

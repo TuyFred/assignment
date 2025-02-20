@@ -1,0 +1,8 @@
+1. $_SERVER – Retrieving Server Information
+The $_SERVER array contains server and request information.
+
+Explanation:
+$_SERVER['SERVER_NAME'] → Retrieves the domain name.
+$_SERVER['HTTP_USER_AGENT'] → Gets the browser details.
+$_SERVER['REQUEST_METHOD'] → Shows the HTTP method (GET/POST).
+

@@ -1,0 +1,10 @@
+1. Destructor (__destruct)
+
+The __destruct() method is automatically called when an object is destroyed 
+or goes out of scope.
+Useful for closing database connections or cleaning up resources.
+
+Explanation:
+__construct() runs when the object is created.
+__destruct() automatically executes when the script ends or object is unset.
+

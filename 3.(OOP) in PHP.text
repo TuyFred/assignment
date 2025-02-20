@@ -1,0 +1,43 @@
+3. Object-Oriented Programming (OOP) in PHP
+OOP in PHP follows the principles of:
+
+Encapsulation (protecting data)
+Inheritance (reusing code)
+Polymorphism (multiple forms)
+Abstraction (hiding details)
+
+
+3.1 Classes and Objects
+A class is a blueprint, and an object is an instance of a class.
+
+Explanation:
+Car is a class with brand and color properties.
+describe() method returns a string.
+$myCar is an object of class Car.
+
+3.2 Constructors (__construct())
+The __construct() method automatically runs when an object is created.
+
+Explanation:
+__construct($name) runs when a Person object is created.
+$this->name = $name; assigns the name automatically
+
+3.3 Static Methods (static)
+A static method belongs to the class and is called without creating an object.
+
+Explanation:
+square() is static, so it's called using ClassName::method().
+No need to create an object.
+
+3.4 Inheritance
+A child class can inherit properties and methods from a parent class.
+
+Explanation:
+Dog extends Animal, overriding makeSound().
+
+3.5 Polymorphism
+Polymorphism allows different classes to use the same method differently.
+
+Explanation:
+Same method area() but different outputs
+

@@ -1,0 +1,6 @@
+1. $_COOKIE – Storing Small Data in User's Browser
+Cookies store small amounts of data on the client-side.
+
+Explanation:
+setcookie("user", "fred", time() + 3600, "/") stores "Bob" for 1 hour.
+$_COOKIE['user'] retrieves it on cookie_get.php.

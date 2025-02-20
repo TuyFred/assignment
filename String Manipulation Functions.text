@@ -1,0 +1,25 @@
+2. String Manipulation Functions
+PHP provides several built-in functions for manipulating strings.
+
+2.1 strpos() – Finding a Substring Position
+The strpos() function returns the position of a substring inside a string.
+
+
+
+Explanation:
+"PHP" starts at index 7 (zero-based index).
+If the string isn't found, strpos() returns false.
+
+2.2 substr() – Extracting Part of a String
+The substr() function extracts a substring from a given string.
+
+Explanation:
+substr($text, 0, 11) extracts from index 0 to 10.
+Returns "Programming".
+
+2.3 explode() – Splitting a String into an Array
+The explode() function splits a string into an array based on a delimiter.
+
+Explanation:
+explode(",", $text) splits "apple,banana,orange" into an array.
+Each fruit becomes an array element

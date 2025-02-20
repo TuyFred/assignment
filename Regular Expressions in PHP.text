@@ -1,0 +1,21 @@
+1. Regular Expressions in PHP
+Regular expressions (regex) are used to search, match, and replace patterns in strings. 
+PHP provides functions like preg_match() and preg_replace() for regex operations.
+
+1.1 preg_match() – Checking if a String Matches a Pattern
+The preg_match() function searches for a pattern in a string and 
+returns 1 if found, 0 otherwise.
+
+Explanation:
+/^Hello/i:
+^ → Matches the start of the string.
+i → Case-insensitive match.
+Returns "Match found!" because "hello" starts with "Hello" (ignoring case).
+
+1.2 preg_replace() – Replacing a Pattern in a String
+The preg_replace() function replaces all occurrences of 
+a pattern with a replacement string.
+
+Explanation:
+"Java" is replaced everywhere in the string.
+"JavaScript" also gets partially replaced (Java → PHP).

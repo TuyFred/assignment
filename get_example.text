@@ -1,0 +1,11 @@
+1. $_GET – Capturing Data from URL
+The $_GET superglobal retrieves query string parameters from the URL.
+
+Explanation:
+Clicking the link sends "fred" as a parameter (?name=fred).
+$_GET['name'] retrieves and displays it.
+Always use htmlspecialchars() to prevent security issues.
+
+2. $_GET (Passing Data via URL)
+Used to collect data from a form with the GET method.
+The data is visible in the URL. 

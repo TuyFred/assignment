@@ -1,0 +1,9 @@
+2. Polymorphism
+
+Polymorphism allows methods in different classes to have the same name 
+but different implementations.
+
+Explanation:
+makeSound() is overridden in Dog and Cat classes.
+The same method behaves differently in each class.
+

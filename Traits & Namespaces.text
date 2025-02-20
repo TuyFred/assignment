@@ -1,0 +1,23 @@
+4. Traits & Namespaces
+
+Traits allow reusing code in multiple classes,
+
+while namespaces prevent naming conflicts.
+
+
+4.1 Traits
+
+Traits allow code reusability without inheritance.
+
+
+Explanation:
+Logger trait provides log() method.
+User uses the trait instead of extending a class.
+
+4.2 Namespaces
+Namespaces prevent class name conflicts.
+
+Explanation:
+namespace App; defines the namespace.
+Prevents conflicts with other User classes
+

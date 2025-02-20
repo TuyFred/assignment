@@ -1,0 +1,12 @@
+2. Encapsulation & Access Modifiers
+Encapsulation hides data and controls access using access modifiers.
+
+Access Modifiers:
+public → Accessible everywhere.
+protected → Accessible within class & subclasses.
+private → Accessible only within class.
+
+Explanation:
+$balance is private, cannot be accessed directly.
+Methods deposit() and getBalance() control access.
+

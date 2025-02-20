@@ -1,0 +1,7 @@
+1. $_FILES – Uploading a File
+The $_FILES superglobal handles file uploads.
+
+Explanation:
+enctype="multipart/form-data" is required for file uploads.
+$_FILES['fileToUpload']['tmp_name'] contains the temporary path.
+move_uploaded_file() saves it to the uploads/ directory.

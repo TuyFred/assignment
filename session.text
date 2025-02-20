@@ -1,0 +1,6 @@
+1. $_SESSION – Storing Data Across Pages
+Sessions allow storing user information between pages.
+
+Explanation:
+session_start() must be at the top of every PHP file using sessions.
+Stores username = fred, which persists until the session expires or is destroyed.

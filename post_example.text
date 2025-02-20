@@ -1,0 +1,12 @@
+PHP Super Global Variables
+PHP provides several built-in superglobal variables that are always accessible, regardless of scope. Below are the key superglobal variables:
+
+1. $_POST (Capturing Form Data)
+It is used to collect form data sent via the POST method.
+It does not append data to the URL, making it more secure than $_GET.
+
+
+Explanation:
+The form uses method="POST", and the input data is sent to post_process.php.
+The htmlspecialchars() function prevents XSS attacks.
+If $_POST is empty, it will show "No data received."
