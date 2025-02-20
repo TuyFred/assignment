@@ -8,5 +8,5 @@ class Math {
 }
 
 $obj = new Math();
-echo $obj->sum(1, 2, 3, 4, 5);
+echo $obj->sum(2, 4, 6, 8, 10);
 ?>

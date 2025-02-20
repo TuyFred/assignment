@@ -1,7 +1,7 @@
 <?php
-$text = "I love Java and JavaScript!";
-$pattern = "/Java/";
-$replacement = "PHP";
+$text = "I love python and php!";
+$pattern = "/php/";
+$replacement = "php";
 
 $new_text = preg_replace($pattern, $replacement, $text);
 echo $new_text;

@@ -5,5 +5,5 @@ class MathOperations {
     }
 }
 
-echo MathOperations::square(5);
+echo MathOperations::square(8);
 ?>

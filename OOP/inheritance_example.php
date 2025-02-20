@@ -9,7 +9,7 @@ class Animal {
 
 class Dog extends Animal {
     public function makeSound() {
-        return "Bark!";
+        return "came back!";
     }
 }
 
